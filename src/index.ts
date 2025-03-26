@@ -1,0 +1,1 @@
+export { default } from '@globallogicuki/backstage-plugin-terraform-backend';

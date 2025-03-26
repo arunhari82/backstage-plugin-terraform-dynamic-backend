@@ -19,3 +19,15 @@ It is only meant for local development, and the setup for it can be found inside
       yarn build
       yarn export-dynamic
 ```
+### Packing and  Getting SHA Integrity
+
+      ```
+            npm pack --json > ./npminfo.json 
+      ``` 
+After we execute this command the file `npminfo.json` will have integrity : SHA         
+
+### Publish the plugin
+
+      ```
+            npm publish
+      ```
